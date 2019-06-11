@@ -2,6 +2,7 @@
     "name": "olaf-heudecker/oauth2-keycloak",
     "description": "Keycloak OAuth 2.0 Client Provider for The PHP League OAuth2-Client based on stevenmaguire/oauth2-keycloak, changed dependencies to support latest 2.4.1 oauth2 base package",
     "license": "MIT",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "Steven Maguire",
