@@ -1,13 +1,18 @@
 {
-    "name": "stevenmaguire/oauth2-keycloak",
-    "description": "Keycloak OAuth 2.0 Client Provider for The PHP League OAuth2-Client",
+    "name": "olaf.heudecker/oauth2-keycloak",
+    "description": "Keycloak OAuth 2.0 Client Provider for The PHP League OAuth2-Client based on stevenmaguire/oauth2-keycloak, changed dependencies to support latest 2.4.1 oauth2 base package",
     "license": "MIT",
     "authors": [
         {
             "name": "Steven Maguire",
             "email": "stevenmaguire@gmail.com",
             "homepage": "https://github.com/stevenmaguire"
-        }
+        },
+        {
+            "name": "Olaf Heudecker",
+            "email": "olaf.heudecker@online.de",
+            "homepage": "https://github.com/olaf.heudecker"
+        },
     ],
     "keywords": [
         "oauth",
@@ -18,7 +23,7 @@
         "keycloak"
     ],
     "require": {
-        "league/oauth2-client": "^2.0 <2.3.0",
+        "league/oauth2-client": "^2.0",
         "firebase/php-jwt": "^4.0"
     },
     "require-dev": {
